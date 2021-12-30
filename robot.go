@@ -24,12 +24,12 @@ type iClient interface {
 }
 
 func newRobot(cli iClient, cacheCli *client.Client, botName string) *robot {
-	return &robot{cli: cli, cacheCli: cacheCli, botName: botName}
+	return &robot{cli: ghclient{cli}, cacheCli: cacheCli, botName: botName}
 }
 
 type robot struct {
 	cacheCli *client.Client
-	cli      iClient
+	cli      ghclient
 	botName  string
 }
 

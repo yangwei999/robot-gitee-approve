@@ -63,7 +63,7 @@ func (bot *robot) handle(org, repo string, pr *sdk.PullRequestHook, cfg *botConf
 	c := transformConfig(org, cfg)
 
 	return approve.Handle(
-		log, &ghclient{bot.cli}, oc,
+		log, &bot.cli, oc,
 		getGiteeOption(), &c, state,
 	)
 }
