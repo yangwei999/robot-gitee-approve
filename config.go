@@ -20,7 +20,7 @@ func (c *configuration) configFor(org, repo string) *botConfig {
 	if i := config.Find(org, repo, v); i >= 0 {
 		return &items[i]
 	}
-	
+
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (c *configuration) Validate() error {
 			return err
 		}
 	}
-	
+
 	return nil
 }
 
@@ -52,9 +52,16 @@ func (c *configuration) SetDefault() {
 
 type botConfig struct {
 	config.RepoFilter
+
+	// RequireSelfApproval requires PR authors to explicitly approve their PRs.
+	// Otherwise the plugin assumes the author of the PR approves the changes in the PR.
+	RequireSelfApproval bool `json:"require_self_approval,omitempty"`
+
+	ignoreReviewState bool
 }
 
 func (c *botConfig) setDefault() {
+	c.ignoreReviewState = true
 }
 
 func (c *botConfig) validate() error {
