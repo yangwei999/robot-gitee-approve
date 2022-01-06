@@ -598,11 +598,12 @@ github.com/opencontainers/runc v0.1.1/go.mod h1:qT5XzbpPznkRYVz/mWwUaVBUv2rmF59P
 github.com/opencontainers/runtime-spec v0.1.2-0.20190507144316-5b71a03e2700/go.mod h1:jwyrGlmzljRJv/Fgzds9SsS/C5hL+LL3ko9hs6T5lQ0=
 github.com/opencontainers/runtime-tools v0.0.0-20181011054405-1d69bd0f9c39/go.mod h1:r3f7wjNzSs2extwzU3Y+6pKfobzPh+kKFJ3ofN+3nfs=
 github.com/opensourceways/community-robot-lib v0.0.0-20211109070107-57f8cc6a2fc6/go.mod h1:wVOxCg37uLrVNcOy/aTh/ip/sSVizPxjhONqqfGERK0=
-github.com/opensourceways/community-robot-lib v0.0.0-20211220063904-5d625d7719ea h1:UdBZcOGPmQa7I/ZN9KKgvt3p4qygZDixwEZWzPMAQZ8=
 github.com/opensourceways/community-robot-lib v0.0.0-20211220063904-5d625d7719ea/go.mod h1:6TT+V5gUcLhuYCwCDKKg9xpiJgy24jEdjNIgD/PjdA4=
+github.com/opensourceways/community-robot-lib v0.0.0-20220106023803-5440edf1bb49 h1:Sg5NYbzlD6h1jrPtVRAZmGduLYkaiaiJ26Dv5h9MSy0=
+github.com/opensourceways/community-robot-lib v0.0.0-20220106023803-5440edf1bb49/go.mod h1:7Ed0TgvJBN6UaXnHwHRqZGCfg6SYpqe5mi6esCKaD1g=
 github.com/opensourceways/go-gitee v0.0.0-20211217093747-04a27605275e/go.mod h1:yvVsEMhp7frMblzN1sco4C7cRlnlpqkkn3O2JQNdRu0=
-github.com/opensourceways/go-gitee v0.0.0-20211230032551-d653a809e178 h1:+yeCqXT76c4MRPf+mu8OvkIJbf9IG3PhpeyWj2B+Lp0=
-github.com/opensourceways/go-gitee v0.0.0-20211230032551-d653a809e178/go.mod h1:yvVsEMhp7frMblzN1sco4C7cRlnlpqkkn3O2JQNdRu0=
+github.com/opensourceways/go-gitee v0.0.0-20211230094517-effa55336a8b h1:xkMOH8c39WYn60h271MHrxJrA8trgX0DHZSLOE4lFAI=
+github.com/opensourceways/go-gitee v0.0.0-20211230094517-effa55336a8b/go.mod h1:yvVsEMhp7frMblzN1sco4C7cRlnlpqkkn3O2JQNdRu0=
 github.com/opensourceways/repo-file-cache v0.0.0-20211109091624-97a8604fa005 h1:QBT9FFRz3lKQyoDFTROFMSX5hUcmiHV4Jod7HrnISo0=
 github.com/opensourceways/repo-file-cache v0.0.0-20211109091624-97a8604fa005/go.mod h1:QLbCvVRPcquiMm9q9RHNfk9lFy+1fkoBWgV339bszhE=
 github.com/opensourceways/repo-owners-cache v0.0.0-20211230083539-49b1f537c8cd h1:VHx2uymOGgMvvAmmcgRyAP6mJBucmW4fU+x3u3DHYmw=
